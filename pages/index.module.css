@@ -1,0 +1,28 @@
+.pageContainer{
+    display: grid;
+    grid-template-columns: 250px 1150px;
+    gap: 50px;
+}
+
+.filter{
+    display: grid;
+    gap: 5px;
+    height: 300px;
+    padding: 14px 18px;
+    background-color: #131313;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 720px) {
+    .pageContainer{
+
+
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+
+   
+    
+  }

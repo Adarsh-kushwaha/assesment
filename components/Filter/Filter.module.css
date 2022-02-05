@@ -1,0 +1,31 @@
+.dropdownBtn{
+    background-color: #232323;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dropdownContent{
+    background-color:#232323 ;
+    border-radius: 2px;
+    padding: 10px;
+    z-index: 100;   
+}
+.dropdownItem p{
+padding: 4px;
+    cursor: pointer;
+    z-index: 1000;
+    
+}
+
+.dropdownItem :hover{
+    background-color: #3d3d3d;
+    padding: 5px;
+    border-radius: 3px;
+    transition: 0.2s ease-in-out;
+
+    
+}
